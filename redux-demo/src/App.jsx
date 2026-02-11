@@ -3,12 +3,14 @@ import Header from "./components/Header"
 import LeftSidebar from "./components/LeftSidebar"
 import Main from "./components/Main"
 import LoginPage from "./pages/login/LoginPage"
+import UsersPage from "./pages/UsersPage/UsersPage"
 
 function App() {
 
   return (
     <div style={{background:'#ef84845c', height:'90vh', padding:'15px'}}>
-      <LoginPage />
+      <UsersPage/>
+      {/* <LoginPage />
       <table width="100%">
         <tbody>
         <tr>
@@ -25,7 +27,7 @@ function App() {
            </td>
         </tr>
         </tbody>
-      </table>
+      </table> */}
     </div>
   )
 }
